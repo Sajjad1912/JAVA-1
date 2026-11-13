@@ -1,0 +1,11 @@
+public class Main{
+    public static void main(String[] args){
+        System.out.println("Sajjatul Alam");// singal line comment
+        System.out.print("01856109266\n");/*Multiple line*/
+        System.out.println("id : 101");
+        System.out.println("title: iphone 15");
+        System.out.println("price: 1895 euro");
+        System.out.println("description: perfect product with best image quality");
+        System.out.println("category: phone");
+    }
+}

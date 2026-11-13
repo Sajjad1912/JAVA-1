@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class Task4 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String str = sc.next();
+        for(int i = 0; i < str.length(); i++){
+            char ch = str.charAt(i);
+            if(ch == 'a')
+                System.out.print('z');//Id 1912
+            else
+                System.out.print((char)(ch-1));
+        }
+    }
+}
